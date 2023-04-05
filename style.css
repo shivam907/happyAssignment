@@ -70,11 +70,15 @@ body {
     margin: 0 auto;
     overflow: hidden;
   }
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
   .body {
     padding: 2rem;
   }
   .body h1,
   .body span {
-    font-size: 1rem !important;
+    font-size: 2rem !important;
   }
 }
