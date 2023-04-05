@@ -68,12 +68,13 @@ body {
     font-size: 60%;
     max-width: 95vw !important;
     margin: 0 auto;
+    overflow: hidden;
   }
   .body {
     padding: 2rem;
   }
   .body h1,
   .body span {
-    font-size: 2rem !important;
+    font-size: 1rem !important;
   }
 }
