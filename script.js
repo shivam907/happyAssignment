@@ -2,16 +2,27 @@
 console.log("Hloo");
 alert("Welcome to my first JavaScript program in COMP1223");
 
-const firstName = prompt("Please enter your first name.");
+let firstName = "",
+  lastName = "",
+  programName = "",
+  yearOfStudy = 0;
+while (firstName.length <= 0) {
+  firstName = prompt("Please enter your first name.");
+}
+while (lastName.length <= 0) {
+  lastName = prompt("Please enter your last name.");
+}
 
-const lastName = prompt("Please enter your last name.");
+while (programName.length <= 0) {
+  programName = prompt(
+    "Please enter your program name.",
+    "Computer System Analyst"
+  );
+}
 
-const programName = prompt(
-  "Please enter your program name.",
-  "Computer System Analyst"
-);
-
-const yearOfStudy = prompt("Please enter your year of study.", "1");
+while (yearOfStudy <= 0) {
+  yearOfStudy = prompt("Please enter your year of study.", "1");
+}
 
 const fullNameSelector = document.getElementById("fullName");
 const programNameSelector = document.getElementById("programName");

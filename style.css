@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   gap: 2rem;
 }
-.body h1 {
+.body h2 {
   font-family: "Poppins";
   font-weight: 400;
   font-size: 3rem;
@@ -77,7 +77,7 @@ body {
   .body {
     padding: 2rem;
   }
-  .body h1,
+  .body h2,
   .body span {
     font-size: 2rem !important;
   }
